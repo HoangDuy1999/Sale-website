@@ -1,0 +1,154 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    background-color: #343a40!important;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+#menu{
+    background-color: #8181F7;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+#menu a:hover{
+    color: black;
+}
+
+#mMenu a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding:10px 0px 10px 0px;
+}
+
+#mMenu{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#login{
+    float: right;
+    color: black;
+}
+
+#login a{
+    text-decoration: none;
+    color: blue;
+}
+#login a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.selected{
+    background-color: #FE9A2E;
+
+}
+
+#content h1{
+    text-align: center;
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 3% 0%;
+}
+i {
+    color: yellow;
+}
+
+th{
+ 
+    color: back;
+    font-size: 15px;
+    background-color: lightblue;
+    margin-left: 5%;
+    text-align: center;
+
+
+}
+
+table{
+    border-color: gray;
+    margin: 0 auto;
+}
+
+#footer{
+    clear:both;
+    background:#212529 ;
+    padding: 15px 8px 5px 8px;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+    color:#FFF;
+    margin-top: 20%;
+    height: 50px;
+}
+
+.clear {
+    clear: both;
+}
+#error {
+  color: red;
+  font-size: 17px;
+}
+.roww{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.roww button{
+    margin-top: 1%;
+    
+}
+.back-to-top{
+    margin-top: -2%;
+    float: right;
+}
+.form-control.form-control-sm{
+    height: 35px;
+    width: 150px;
+}
+.btnGiaoHang,.btnThanhToan,.btnHuy,.btnInDonHang {
+    text-decoration: none;
+    color: blue;
+    margin-left: 2%;
+font-weight: bold;
+  
+    
+
+}
+.ipt{
+    float: right;
+    margin-right:58%;
+    width: 25%;
+}
+.flt{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.sp1{
+    margin: 1%;
+        
+
+}
+.sbm{
+    margin-top: 2%;
+}
+.ipt1{
+    float: right;
+    margin-right:58%;
+    width: 25%;
+    height: 150px;
+}
+.dx a{
+    color: blue;
+}

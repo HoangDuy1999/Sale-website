@@ -1,0 +1,539 @@
+body{
+     font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    background:url(../img/page_bg.gif);
+    margin:0px;
+    padding:0px;
+}
+#wrapper{
+    margin:auto;
+    text-align:left;
+    width:1200px;
+    border-left:2px solid #FFF;
+    border-right: 2px solid #FFF;
+    background: #FFF;
+    color: #000;
+    height: auto;
+   
+}
+#header{
+    background: rgba(0, 0, 0, 0.932) repeat-x;
+    padding-top:9px;
+
+}
+
+
+#content{
+    height: auto;
+    min-height: 50px;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    
+}
+.newProduct{
+    height: auto;
+    margin: 3%  1%;
+   
+
+}
+.best-seller-products{
+    height: auto;  
+    margin: 1%;
+}
+.hrr{
+    border: solid 1px orangered;
+    width: 40%;
+    margin-left: 2%;
+}
+/*css phần footer
+*/
+#footer{
+    clear:both;
+    background:#172431 ;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+    color:#FFF;
+    height: auto;
+    font-size: 15px;
+   
+}
+
+#footer a {
+color:#7b8fa3;
+text-decoration: none;
+}
+#footer a:hover {
+color:#f90
+}
+.ft{
+    color: white;
+    margin-left: 5%;
+}
+.ft-content{
+    margin: 5%;
+     color: rgb(202, 193, 193);
+     font-size: 17px;
+     text-align: left;
+}
+.ft-ds{
+    text-align: center;
+    font-size: 18px;
+}
+.img-line{
+    height:2% ;
+   
+}
+#footer button {
+    border:1px solid gray;
+    background-color: blue;
+    color: white;
+    float: right;
+    margin-right: 20%;
+    height: 30px;
+}
+#footer ul li i {
+color:#f90;
+margin-right:5px;
+font-size:10px;
+
+}
+li {
+    list-style-type: none;
+}
+
+#footer button:hover {
+color:white;
+background-color: red;;
+-webkit-transition:all .2s ease-in-out;
+
+
+}
+.copyright{
+    background-color: black;
+    padding:20px 0 40px;
+    color: white;
+    height: 50px;
+    
+
+}
+.back-to-top{
+    float: right;
+    margin-right: -5%;
+    margin-bottom: 1%;
+    
+}
+.tt{
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*css phần đăng nhập và đk*/
+
+#login_nav{
+    color:#FFF;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    width: 820px;
+    margin-left: 25%;
+    margin-top: -50px;
+    text-align: right;
+    float: right;
+    height: 80px;
+}
+#login_nav a{
+text-decoration: none;
+}
+.form-control{
+    width: 300px;
+    margin-left: 2%;
+}
+.form-inline{
+    margin: 2%;
+    width: 600px;
+}
+.form-inline img{
+    width: 300px;
+    height: 150px;
+ 
+   
+}
+.container{
+    margin-left: 30%;
+}
+#dn,#dk {
+    margin-left: 5px;
+    font-size: 11px;
+    width: 150px;
+    color: blue;
+}
+#dangky{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color: wheat;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+}
+#sidebar dl dt{
+    background: teal  bottom repeat-x;
+    color: yellow;
+    margin:2px 2px 1px 2px;
+    padding: 6px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+#sidebar dl dd{
+    border-bottom: 1px solid wheat;
+    margin: 0px 2px;
+    padding: 0px;
+    background-color: #39F;
+}
+#sidebar dl dd a{
+    color: #FFF;
+    padding: 3px 22px;
+    display: block;
+    font-size: 17px;
+    color: cornsilk;
+    text-align: center;
+    text-decoration: none;
+
+
+    
+}
+#sidebar dl dd a:hover{
+    background: orange;
+}
+#content h2{
+    font: bold 30px arial;
+    color: green;
+    padding-left: 20px;
+    margin-top: 3%;
+  
+   
+}
+.box{
+    margin: 5px;
+    float: left;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border: solid 0.5px #F2F2F2;
+       margin-left: 2%;
+
+    
+}
+
+.box img{
+    width: 210px;
+    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+   
+}
+.pname{
+    font: bold 15px arial;
+    color:black;
+    margin-top: 5px;
+}
+.pprice{
+    font: bold 15px arial;
+    color:#F30;
+    margin-top: 10px;
+}
+.action{
+    font:   bold 15px arial;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color:#F96;
+    text-align: center;
+    margin-top: 5%;
+}
+.action a{
+    text-decoration: none;
+}
+.box:hover {
+      -webkit-box-shadow: 2px 4px 4px 4px gray;
+    
+}
+.box:hover a{color: green;}
+#chitietsp{
+    padding: 10px 10px 10px 10px;
+    min-height:220px;
+}
+#chitietleft{
+    float: left;
+    margin-bottom: 10px;
+ 
+}
+#chitietleft img{
+    width: 290px;
+    height:310px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 8%;
+    
+}
+#chitietleft img:hover{
+    width: 290px;
+    height:310px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+      -webkit-box-shadow: 2px 4px 4px 4px gray;
+    
+}
+#chitietright{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 3%;
+}
+#mota{
+    clear:both;
+    font-size:17px;
+    margin: 1%;
+}
+.label
+{
+    width:120px;
+    text-align: right;
+    font-size: 17px;
+    display: inline-block;
+     margin-left: 0%;
+     margin-top: 1%;
+}
+.data{
+    font-size: 15px;
+    color:blue;
+   
+}
+.productname{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+}
+.factory{
+    font-size: 15px;
+    color:red;
+}
+/*css phần giỏ hàng*/
+.giohang{
+    text-align: center;
+    float: left;
+    margin-top: 35%;
+    font-size: medium;
+    margin-left: -20%;
+    margin-bottom: 10%;
+   
+}
+.giohang a{
+    text-decoration: none;
+}
+.giohang a:hover{
+   color: rgb(236, 31, 82);
+}
+#quanlygiohang{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+#quanlygiohang h2{
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+#quanlygiohang table{
+    width: auto;
+    padding: 0;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10%;
+}
+#quanlygiohang table tr td, #quanlygiohang table tr th{
+    margin:0;
+    padding:5px;
+}
+
+.hr{
+    border: solid 1px red;
+    width: 100%;
+    float: left;
+}
+.check{
+    color: red;
+}
+/*css phần đăng ký*/
+.infomation-title h5{
+    color: blue;
+    text-align: left;
+    margin-left: -15%;
+    margin-top: 5%;
+
+
+}
+.ptk{
+    margin-top: 5%;
+    color: blue;
+}
+
+
+/*css cho menu*/
+ /*header-MENU*/
+        
+       .form-group-row a{
+           text-decoration: none;
+           font-size: 20px;
+           font-family:  sans-serif;
+           color: tomato;
+       }
+     .form-group-row a:hover{
+         color: blue;
+     }
+        
+        
+        
+        #menu ul {
+            background: #3287e7c7;
+            list-style-type: none;
+            text-align: left;
+            color: white;
+            margin-left: 0px;
+            justify-content: center;
+            height: 50px;
+
+            
+        }
+        
+        #menu li {
+            color: white;
+            display: inline-block;
+            width: 120px;
+            height: 50px;
+            line-height: 50px;
+           
+            text-align: center;
+            font-size: 17px;
+            font-family: sans-serif;
+            margin-left: 5%; 
+           
+        }
+        
+        #menu a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            text-align:center;
+            text-anchor: middle;
+           
+          
+        }
+        
+        #menu a:hover {
+            background: orange;
+            color: white;
+            height: 50px;
+            border-bottom: solid 2px blue;
+           
+            
+        }
+        /*header-SUBMENU  
+ TẠI đây sẽ thiết kế phần css cho menu đa cấp thứ 1   
+*/
+ul.sub-menu{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    display: none;
+    cursor: pointer;
+
+   
+    
+}
+
+ul.sub-menu li {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    cursor: inherit;
+
+       
+
+
+    
+}
+ul.sub-menu a {
+    display: block;
+    cursor: pointer;
+    width: 130px;
+       
+
+
+  
+}
+
+ #menu li>.sub-menu {
+     width: 330px;
+     z-index: 1;
+     height: 450px;    
+    cursor: inherit;
+    background-color: teal;
+    margin-top: -3%;
+    margin-left: 9%;
+
+     
+     
+    
+ }
+
+ 
+li{
+    margin-top:1px;
+     margin-left: 10%;
+    
+
+}
+li:hover ul.sub-menu {
+    display: block;
+}
+.sub-menu a:hover  {
+font-size: 17px;
+width: 130px;
+
+
+
+}
+dt.menu {
+    text-align: center;
+    color: yellow;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.type_pro li{
+    text-align: right;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+.hrhr{
+    color: whitesmoke;
+    width: 90%;
+    border: solid 1px;
+    margin-top: -2%;
+}
